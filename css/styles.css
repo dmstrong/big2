@@ -91,12 +91,8 @@ table {
   width: 400px;
 }
 
-.instructions {
-        display: grid;
-        grid-template-columns: 1fr;
-        font-size: 1rem;
-        padding: 25px 50px;
-  }
+
+
 .warning {
     display: none;
     text-align: center;
@@ -104,7 +100,7 @@ table {
     font-size: .875rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 774px) {
     .key {
         display: none;
     }
@@ -116,7 +112,46 @@ table {
 .instructions {
     display: none;
 }
+
+.instructions-2 {
+    display: none;
+}
+
+table {
+    display: none;
+}
+
+}
+
+
+@media (min-width: 699px) {
+ 
+    
+.instructions-2 {
+    display: none;
+}
+.piano {
+        padding-bottom: 50px;
+    }
+
+}
+
+@media (max-width: 800px) {
+ 
+    .instructions-2{
+        display: none;
+    }
+.instructions {
+    display: none;
+}
+
+
+
 table {
     display: none;
 }
 }
+
+
+
+
