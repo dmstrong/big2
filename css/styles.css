@@ -1,12 +1,11 @@
 body {
     background: linear-gradient(to bottom right, rgb(139, 5, 5), rgba(255, 0, 0, 0.781));
-    /* max-width: 100%; */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-bottom: 40px;
 }
 
 .title {
@@ -22,9 +21,13 @@ body {
     padding-bottom: 50px;
 }
 
+.container {
+    
+}
 .piano {
     display: flex;
-    padding-bottom: 40px;
+    max-width: 80vw;
+    min-width: 20vw;
 }
 
 .key {
@@ -36,7 +39,7 @@ body {
 }
 
 .white {
-    --width: 80px;
+    --width: 70px;
     background: white;
     border: 1px solid #333;
     color: black;
@@ -45,10 +48,10 @@ body {
 }
 
 .black {
-    --width: 40px;
+    --width: 35px;
     background: black;
-    margin-left: calc(var(--width) / -.8);
-    margin-right: calc(var(--width) / -.8);
+    margin-left: calc(var(--width) / -.7);
+    margin-right: calc(var(--width) / -.7);
     z-index: 2;
     color: white;
     font-size: 1.5rem;
