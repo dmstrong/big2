@@ -99,6 +99,9 @@ table {
   }
 .warning {
     display: none;
+    text-align: center;
+    padding: 0 25px;
+    font-size: .875rem;
 }
 
 @media (max-width: 600px) {
@@ -109,11 +112,7 @@ table {
         display: block;
         font-size: 1.5rem;
   }
-}
-
-@media (max-width: 601px) {
-
-    
+      
 .instructions {
     display: none;
 }
