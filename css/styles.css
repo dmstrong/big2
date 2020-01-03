@@ -92,13 +92,13 @@ table {
 }
 
 
-.instructions { font-size: .85rem;}
+.instructions { font-size: 1.2rem; padding: 0 25px 25px; font-weight: 700;}
 
 .warning {
     display: none;
     text-align: center;
-    padding: 0 25px;
-    font-size: .875rem;
+    padding: 0 25px
+    font-size: .75rem;
 }
 
 @media (max-width: 774px) {
