@@ -136,21 +136,6 @@ table {
 
 }
 
-@media (max-width: 800px) {
- 
-    .instructions-2{
-        display: none;
-    }
-.instructions {
-    display: none;
-}
-
-
-
-table {
-    display: none;
-}
-}
 
 
 

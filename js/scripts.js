@@ -6,7 +6,7 @@ const whiteKeys = document.querySelectorAll('.key.white');
 const blackKeys = document.querySelectorAll('.key.black');
 
 keys.forEach(key => {
-  key.addEventListener('click', () => playNote(key));
+  key.addEventListener('mouseover', () => playNote(key));
 });
 
 document.addEventListener('keydown', e => {
