@@ -121,7 +121,7 @@ body {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media (orientation: landscape), (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .instructions-landscape {
       display: grid;
   }
